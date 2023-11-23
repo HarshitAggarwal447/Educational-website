@@ -1,0 +1,20 @@
+.note_container{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.image_set{
+    width: 20rem;
+    height: 20rem;
+}
+
+@media screen and (max-width:1200px) {
+    .note_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .note_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

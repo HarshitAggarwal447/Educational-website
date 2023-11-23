@@ -1,0 +1,20 @@
+#inner_display{
+    height: 50vh;
+    width: 35vh;
+    background-color: red;
+    border-radius: 10%;
+}
+#clickme{
+    background-color: #2e3267;
+    color: #fff;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 45%;
+    left: 30%;
+    border-radius: 25%;
+}
+#clickme:hover{
+    border: 3px solid white;
+} 

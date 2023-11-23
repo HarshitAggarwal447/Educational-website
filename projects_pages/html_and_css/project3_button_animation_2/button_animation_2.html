@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>education webpage</title>
+
+    <!-- include stile sheets -->
+    <!-- This is use for include index css file -->
+    <link rel="stylesheet" href="../../../css/index.css">
+    <link rel="stylesheet" href="../html_and_css_CSS.css">
+    <!-- This is use for incluse project css -->
+    <link rel="stylesheet" href="./button_animation_2.css">
+
+    <!-- This is use for inconscout CDN  which is use for icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- This is use for Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4>Education Hub</h4>
+            </a>
+            <ul class="nav_menue">
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../about.html">About</a></li>
+                <li><a href="../../../notes.html">Notes</a></li>
+                <li><a href="../../../project.html">Projects</a></li>
+                <li><a href="../../../contact.html">contact</a></li>
+            </ul>
+            <button id="open-menu-bts"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-bts"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ================= End NAV BAR ====================-->
+
+    <section>
+        <div>
+            <div class="code">
+                <h1>Code Display</h1>
+                <div>
+                    <button id="html">
+                        <h4>HTML</h4>
+                    </button>
+                    <button id="css">
+                        <h4>CSS</h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="but">
+            <!-- FOR DISPLAY HTML -->
+            <p class=" display display_html">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html lang="en"&gt; <br>
+                &lt;head&gt; <br>
+                &emsp;&lt;meta charset="UTF-8"&gt; <br>
+                &emsp;&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; <br>
+                &emsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br>
+                &emsp;&lt;link rel="stylesheet" href="button_animation.css"&gt; <br>
+                &emsp;&lt;title&gt; BUTTON ANIMATION &lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+                &lt;body&gt; <br>
+                &emsp;&lt;button&gt; Hover Here &lt;/button&gt; <br>
+                &lt;/body&gt; <br>
+                &lt;/html&gt; <br>
+            </p>
+            <!-- FOR DISPLAY CSS -->
+            <div class="display_css display">
+                <p>
+                    button{ <br>
+                    &emsp;display : inline-block ; <br>
+                    &emsp;position : relative ; <br>
+                    &emsp;color : #19aae6 ; <br>
+                    &emsp;background : #ffffff ; <br>
+                    &emsp;font-family : inherit ; <br>
+                    &emsp;font-weight : 500 ; <br>
+                    &emsp;font-size : 17px ; <br>
+                    &emsp;padding : 16px 24px ; <br>
+                    &emsp;margin : 20px ; <br>
+                    &emsp;border : 2px solid #19aae6 ; <br>
+                    &emsp;border-radius : 8px ; <br>
+                    &emsp;z-index : 1 ; <br>
+                    &emsp;overflow : hidden ; <br>
+                    &emsp;transition : 0.5s ;
+                    } <br>
+                </p>
+
+                <p>
+                    button : : before{ <br>
+                    &emsp;content : "" ; <br>
+                    &emsp;position : absolute ; <br>
+                    &emsp;background : #19aae6 ; <br>
+                    &emsp;height : 150px ; <br>
+                    &emsp;width : 200px ; <br>
+                    &emsp;border-radius : 50% ; <br>
+                    &emsp;z-index : -1 ;
+                    } <br>
+                </p>
+
+                <p>
+                    button : hover{ <br>
+                    &emsp;color : #ffffff ;
+                    } <br>
+                </p>
+
+                <p>
+                    button : : before{ <br>
+                    &emsp;top : 100% ; <br>
+                    &emsp;left : 100% ; <br>
+                    &emsp;transition : 0.7s ;
+                    } <br>
+                </p>
+
+                <p>
+                    button :hover : : before{ <br>
+                    &emsp;top : -30px ; <br>
+                    &emsp;left : -30px ;
+                    } <br>
+                </p>
+
+                <p>
+                    button :active : : before{ <br>
+                    &emsp;background : #3a0ca3 ; <br>
+                    &emsp;transition : 0s ;
+                    } <br>
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h1>Code Output</h1>
+            </div>
+            <div class="display_project" style="width: 42vh;">
+                <div class="inner">
+                    <button class="button">Hover Here</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="container footer_container">
+            <!-- 1 section of footer -->
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>Education Hub</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt ullam? Sequi, error. Nihil,
+                    similique.
+                </p>
+            </div>
+
+            <!-- 2 section of footer for Permalinks -->
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="../../../index.html">Home</a></li>
+                    <li><a href="../../../about.html">About</a></li>
+                    <li><a href="../../../notes.html">Notes</a></li>
+                    <li><a href="../../../project.html">Projects</a></li>
+                    <li><a href="../../../contact.html">contact</a></li>
+                </ul>
+            </div>
+
+            <!-- 3 section of footer for polices -->
+            <div class="footer_3">
+                <h4>Primacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and condition</a></li>
+                    <!-- <li><a href="#">Refund Policy</a></li> -->
+                </ul>
+            </div>
+
+            <!-- 4 section of footer for contact us -->
+            <div class="footer_4">
+                <h4>Contact us</h4>
+                <div>
+                    <!-- <p>+91 xxxxx xxxxx</p> -->
+                    <p>xyz@gmail.com</p>
+                </div>
+                <!--  for social media simbols -->
+                <ul class="footer_socials">
+                    <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- this is use for copyright -->
+        <div class="footer_copyright">
+            <small>Copyright &copy; Education Hub</small>
+        </div>
+    </footer>
+    <!-- ======================= END OF FOOTER ======================-->
+
+    <!-- INCLUDING JAVASCRIPT -->
+    <script src="../../../js/index.js"></script>
+    <!-- This is use for page js -->
+    <script src="../html_and_css_JS.js"></script>
+
+</body>
+
+</html>

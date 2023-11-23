@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>education webpage</title>
+
+    <!-- include stile sheets -->
+    <!-- This is use for include index css file -->
+    <link rel="stylesheet" href="../../../css/index.css">
+    <link rel="stylesheet" href="../html_and_css_CSS.css">
+    <!-- This is use for incluse project css -->
+    <link rel="stylesheet" href="./button_animation1.css">
+
+    <!-- This is use for inconscout CDN  which is use for icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- This is use for Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4>Education Hub</h4>
+            </a>
+            <ul class="nav_menue">
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../about.html">About</a></li>
+                <li><a href="../../../notes.html">Notes</a></li>
+                <li><a href="../../../project.html">Projects</a></li>
+                <li><a href="../../../contact.html">contact</a></li>
+            </ul>
+            <button id="open-menu-bts"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-bts"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ================= End NAV BAR ====================-->
+
+    <section>
+        <div>
+            <div class="code">
+                <h1>Code Display</h1>
+                <div>
+                    <button id="html">
+                        <h4>HTML</h4>
+                    </button>
+                    <button id="css">
+                        <h4>CSS</h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="but">
+            <!-- FOR DISPLAY HTML -->
+            <p class=" display display_html">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html lang="en"&gt; <br>
+                &lt;head&gt; <br>
+                &emsp;&lt;meta charset="UTF-8"&gt; <br>
+                &emsp;&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; <br>
+                &emsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br>
+                &emsp;&lt;link rel="stylesheet" href="button_animation.css"&gt; <br>
+                &emsp;&lt;title&gt; Button With Animation &lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+                &lt;body&gt; <br>
+                &emsp;&lt;button&gt; <br>
+                &emsp;&emsp;&lt;div&gt; <br>
+                &emsp;&emsp;&emsp;&lt;span&gt;&lt;/span&gt; <br>
+                &emsp;&emsp;&emsp;&lt;a href="#"&gt; Click Here &lt;/a&gt; <br>
+                &emsp;&emsp;&lt;/div&gt; <br>
+                &emsp;&lt;/button&gt; <br>
+                &lt;/body&gt; <br>
+                &lt;/html&gt; <br>
+            </p>
+            <!-- FOR DISPLAY CSS -->
+            <div class="display display_css">
+                <p>
+                    button{ <br>
+                    &emsp;border: 0 ; <br>
+                    &emsp;cursor: pointer ; <br>
+                    &emsp;position: relative ;
+                    } <br>
+                </p>
+
+                <p>
+                    button div{ <br>
+                    &emsp;background-color: rgb(255, 70, 85) ; <br>
+                    &emsp;padding: 1.2rem 5.5rem ; <br>
+                    &emsp;position: relative ; <br>
+                    &emsp;overflow: hidden ;
+                    } <br>
+                </p>
+
+                <p>
+                    button a{ <br>
+                    &emsp;position: relative ; <br>
+                    &emsp;text-decoration: none ; <br>
+                    &emsp;font-size: 1.5rem ; <br>
+                    &emsp;font-weight: 700 ; <br>
+                    &emsp;color: #ece8e1 ; <br>
+                    &emsp;text-transform: uppercase ; <br>
+                    &emsp;z-index: 2 ;
+                    } <br>
+                </p>
+
+                <p>
+                    button : : before, button : : after{ <br>
+                    &emsp;content: "" ; <br>
+                    &emsp;position: absolute ; <br>
+                    &emsp;width: 105% ; <br>
+                    &emsp;height: 50% ; <br>
+                    &emsp;background-color: transparent ; <br>
+                    &emsp;border: 1px solid rgb(134, 129, 124) ; <br>
+                    &emsp;left: -2.5% ; <br>
+                    &emsp;z-index: -1 ;
+                    } <br>
+                </p>
+
+                <p>
+                    button : : before{ <br>
+                    &emsp;border-bottom: 0 ; <br>
+                    &emsp;top: -10% ;
+                    } <br>
+                </p>
+
+                <p>
+                    button : : after{ <br>
+                    &emsp;border-top: 0 ; <br>
+                    &emsp;bottom: -10% ;
+                    } <br>
+                </p>
+
+                <p>
+                    button span{ <br>
+                    &emsp;position: absolute ; <br>
+                    &emsp;top: 0 ; <br>
+                    &emsp;left: 0 ; <br>
+                    &emsp;width: 120% ; <br>
+                    &emsp;height: 110% ; <br>
+                    &emsp;background-color: rgb(15, 25, 35) ; <br>
+                    &emsp;transform: translateX(-105%) skew(-10deg) ; <br>
+                    &emsp;transition: 0.4s ease ;
+                    } <br>
+                </p>
+
+                <p>
+                    button : hover span{ <br>
+                    &emsp;transform: translateX(-5%) skew(-10deg) ;
+                    } <br>
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h1>Code Output</h1>
+            </div>
+            <div class="display_project" style="width: 45vh;">
+                <div class="inner">
+                    <button class="button">
+                        <div>
+                            <span></span>
+                            <a href="#">Click Here</a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="container footer_container">
+            <!-- 1 section of footer -->
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>Education Hub</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt ullam? Sequi, error. Nihil,
+                    similique.
+                </p>
+            </div>
+
+            <!-- 2 section of footer for Permalinks -->
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="../../../index.html">Home</a></li>
+                    <li><a href="../../../about.html">About</a></li>
+                    <li><a href="../../../notes.html">Notes</a></li>
+                    <li><a href="../../../project.html">Projects</a></li>
+                    <li><a href="../../../contact.html">contact</a></li>
+                </ul>
+            </div>
+
+            <!-- 3 section of footer for polices -->
+            <div class="footer_3">
+                <h4>Primacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and condition</a></li>
+                    <!-- <li><a href="#">Refund Policy</a></li> -->
+                </ul>
+            </div>
+
+            <!-- 4 section of footer for contact us -->
+            <div class="footer_4">
+                <h4>Contact us</h4>
+                <div>
+                    <!-- <p>+91 xxxxx xxxxx</p> -->
+                    <p>educationhub2022@gmail.com</p>
+                </div>
+                <!--  for social media simbols -->
+                <ul class="footer_socials">
+                    <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- this is use for copyright -->
+        <div class="footer_copyright">
+            <small>Copyright &copy; Education Hub</small>
+        </div>
+    </footer>
+    <!-- ======================= END OF FOOTER ======================-->
+
+    <!-- INCLUDING JAVASCRIPT -->
+    <script src="../../../js/index.js"></script>
+    <!-- This is use for page js -->
+    <script src="../html_and_css_JS.js"></script>
+
+</body>
+
+</html>
